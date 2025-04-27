@@ -66,12 +66,11 @@
   }
 }
 
-@layer components {
-  .active-nav {
-    @apply bg-blue-bg;
-  }
-  .active-nav div,
-  .active-nav span {
-    @apply group-hover:text-white;
-  }
+.active-nav {
+  @apply bg-blue-bg;
+}
+
+.active-nav div,
+.active-nav span {
+  @apply text-white;
 }

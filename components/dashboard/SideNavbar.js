@@ -6,6 +6,7 @@ import { BsChevronLeft } from "react-icons/bs";
 export default function SideNavbar() {
 
   const path = usePathname();
+  
 
   return (
     <>
@@ -89,7 +90,7 @@ export default function SideNavbar() {
               <BsChevronLeft className="size-6" />
             </span>
           </Link>
-          <Link href="#" className={`flex items-center justify-between px-4 py-4 bg-blue-50 hover:bg-blue-bg group pr-[22%] rounded-r-[40px]`}>
+          <Link href="/dashboard/account" className={`flex items-center justify-between px-4 py-4 bg-blue-50 hover:bg-blue-bg group pr-[22%] rounded-r-[40px] ${path === "/dashboard/account" ? "active-nav" : ""}`}>
             <div className="text-blue-text group-hover:text-white">
               <h2 className="text-xl font-semibold">حساب کاربری</h2>
               <p className="text-xs">مدیریت وجوه، پشتیبانی، باشگاه مشتریان</p>
