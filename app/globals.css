@@ -11,6 +11,9 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-blue-bg: #2082ff;
+  --color-blue-bg-darker: #1d39d7;
+  --color-blue-text: #1d39d7;
   --font-vazir: "Vazir", sans-serif;
   --font-vazir-light: "Vazir Light", sans-serif;
   --font-vazir-medium: "Vazir Medium", sans-serif;
@@ -60,5 +63,15 @@
     @apply font-vazir;
     background: var(--background);
     color: var(--foreground);
+  }
+}
+
+@layer components {
+  .active-nav {
+    @apply bg-blue-bg;
+  }
+  .active-nav div,
+  .active-nav span {
+    @apply group-hover:text-white;
   }
 }
