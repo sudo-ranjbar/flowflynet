@@ -19,6 +19,13 @@
   --font-vazir-medium: "Vazir Medium", sans-serif;
   --font-vazir-bold: "Vazir Bold", sans-serif;
   --font-vazir-thin: "Vazir Thin", sans-serif;
+
+
+  /* --breakpoint-xs: 20rem; 320px mobile */
+  /* --breakpoint-sm: 38rem; 608px mobile landscape */
+  /* --breakpoint-md: 48rem; 768px tablet */
+  /* --breakpoint-lg: 64rem; 1024px laptop */
+  /* --breakpoint-xl: 80rem; 1280px desktop */
 }
 
 /* @media (prefers-color-scheme: dark) {

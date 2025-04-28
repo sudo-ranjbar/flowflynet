@@ -8,6 +8,6 @@ export default function DashboardBanner() {
 
 
   return (
-    <Image src="/assets/img/banner.png" alt="..." width={100000000} height={100} className="h-64 w-full rounded-lg object-cover" />
+    <Image src="/assets/img/banner.png" alt="..." width={100000000} height={100} className="h-full w-full rounded-lg lg:object-cover" />
   );
 }

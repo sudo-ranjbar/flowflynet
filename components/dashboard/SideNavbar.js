@@ -11,7 +11,7 @@ export default function SideNavbar() {
   return (
     <>
       {/* sidebar icons */}
-      <div className="h-full bg-blue-bg w-[20%] rounded-[40px] absolute">
+      <div className="h-full bg-blue-bg xl:w-[20%] lg:w-[21%] rounded-[40px] absolute">
         <ul className="flex flex-col items-center h-full justify-around">
           <li>
             <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 72.48 100.6" className="fill-white size-11">
@@ -99,7 +99,7 @@ export default function SideNavbar() {
               <BsChevronLeft className="size-6" />
             </span>
           </Link>
-          <Link href="#" className="flex items-center justify-between px-4 py-4 bg-blue-50 hover:bg-blue-bg group pr-[22%] rounded-r-[40px]">
+          <Link href="/dashboard/orders" className={`flex items-center justify-between px-4 py-4 bg-blue-50 hover:bg-blue-bg group pr-[22%] rounded-r-[40px] ${path === "/dashboard/orders" ? "active-nav" : ""}`}>
             <div className="text-blue-text group-hover:text-white">
               <h2 className="text-xl font-semibold">سفارشات</h2>
               <p className="text-xs">مدیریت وجوه، پشتیبانی، باشگاه مشتریان</p>
@@ -108,7 +108,7 @@ export default function SideNavbar() {
               <BsChevronLeft className="size-6" />
             </span>
           </Link>
-          <Link href="#" className="flex items-center justify-between px-4 py-4 bg-blue-50 hover:bg-blue-bg group pr-[22%] rounded-r-[40px]">
+          <Link href="/dashboard/trips" className={`flex items-center justify-between px-4 py-4 bg-blue-50 hover:bg-blue-bg group pr-[22%] rounded-r-[40px] ${path === "/dashboard/trips" ? "active-nav" : ""}`}>
             <div className="text-blue-text group-hover:text-white">
               <h2 className="text-xl font-semibold">سفرهای من</h2>
               <p className="text-xs">مدیریت وجوه، پشتیبانی، باشگاه مشتریان</p>
@@ -117,7 +117,7 @@ export default function SideNavbar() {
               <BsChevronLeft className="size-6" />
             </span>
           </Link>
-          <Link href="#" className="flex items-center justify-between px-4 py-4 bg-blue-50 hover:bg-blue-bg group pr-[22%] rounded-r-[40px]">
+          <Link href="/dashboard/passengers" className={`flex items-center justify-between px-4 py-4 bg-blue-50 hover:bg-blue-bg group pr-[22%] rounded-r-[40px] ${path === "/dashboard/passengers" ? "active-nav" : ""}`}>
             <div className="text-blue-text group-hover:text-white">
               <h2 className="text-xl font-semibold">لیست مسافران</h2>
               <p className="text-xs">مدیریت وجوه، پشتیبانی، باشگاه مشتریان</p>
@@ -126,7 +126,7 @@ export default function SideNavbar() {
               <BsChevronLeft className="size-6" />
             </span>
           </Link>
-          <Link href="#" className="flex items-center justify-between px-4 py-4 bg-blue-50 hover:bg-blue-bg group pr-[22%] rounded-r-[40px]">
+          <Link href="/dashboard/favourites" className={`flex items-center justify-between px-4 py-4 bg-blue-50 hover:bg-blue-bg group pr-[22%] rounded-r-[40px] ${path === "/dashboard/favourites" ? "active-nav" : ""}`}>
             <div className="text-blue-text group-hover:text-white">
               <h2 className="text-xl font-semibold">علاقه‌مندی‌ها</h2>
               <p className="text-xs">مدیریت وجوه، پشتیبانی، باشگاه مشتریان</p>
@@ -135,7 +135,7 @@ export default function SideNavbar() {
               <BsChevronLeft className="size-6" />
             </span>
           </Link>
-          <Link href="#" className="flex items-center justify-between px-4 py-4 bg-blue-50 hover:bg-blue-bg group pr-[22%] rounded-r-[40px]">
+          <Link href="/dashboard/support" className={`flex items-center justify-between px-4 py-4 bg-blue-50 hover:bg-blue-bg group pr-[22%] rounded-r-[40px] ${path === "/dashboard/support" ? "active-nav" : ""}`}>
             <div className="text-blue-text group-hover:text-white">
               <h2 className="text-xl font-semibold">پشتیبانی</h2>
               <p className="text-xs">مدیریت وجوه، پشتیبانی، باشگاه مشتریان</p>
@@ -144,7 +144,7 @@ export default function SideNavbar() {
               <BsChevronLeft className="size-6" />
             </span>
           </Link>
-          <Link href="#" className="flex items-center justify-between px-4 py-4 bg-blue-50 hover:bg-blue-bg group pr-[22%] rounded-r-[40px]">
+          <Link href="/dashboard/credit" className={`flex items-center justify-between px-4 py-4 bg-blue-50 hover:bg-blue-bg group pr-[22%] rounded-r-[40px] ${path === "/dashboard/credit" ? "active-nav" : ""}`}>
             <div className="text-blue-text group-hover:text-white">
               <h2 className="text-xl font-semibold">موجودی و اعتبار</h2>
               <p className="text-xs">مدیریت وجوه، پشتیبانی، باشگاه مشتریان</p>
