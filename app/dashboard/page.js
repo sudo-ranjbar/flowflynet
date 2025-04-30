@@ -5,7 +5,9 @@ export default function DashboardPage() {
 
   return (
     <>
-      <MainContainer />
+      <MainContainer>
+        صفحه اصلی داشبورد
+      </MainContainer>
     </>
   )
 }

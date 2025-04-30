@@ -5,7 +5,9 @@ export default function TripsPage() {
 
   return (
     <>
-      <MainContainer />
+      <MainContainer>
+        سفرهای من
+      </MainContainer>
     </>
   )
 }

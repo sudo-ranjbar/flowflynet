@@ -5,7 +5,9 @@ export default function CreditPage() {
 
   return (
     <>
-      <MainContainer />
+      <MainContainer>
+        بخش موجودی و اعتبار
+      </MainContainer>
     </>
   )
 }

@@ -5,7 +5,9 @@ export default function OrdersPage() {
 
   return (
     <>
-      <MainContainer />
+      <MainContainer>
+        علاقه مندی ها
+      </MainContainer>
     </>
   )
 }
